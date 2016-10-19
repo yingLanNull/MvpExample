@@ -9,7 +9,7 @@ import retrofit2.Response;
 
 /**
  * @function ${desc}
- * @auther: Created by sufei
+ * @auther: Created by yinglan
  * @time: 16/9/20
  */
 public abstract class MyCallBack<T> implements Callback<T> {

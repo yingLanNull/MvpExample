@@ -2,7 +2,7 @@ package com.yinglan.mvpexample.model;
 
 /**
  * @function ${desc}
- * @auther: Created by sufei
+ * @auther: Created by yinglan
  * @time: 16/10/18
  */
 

@@ -13,7 +13,7 @@ import com.yinglan.mvpexample.R;
 
 /**
  * @function ${desc}
- * @auther: Created by sufei
+ * @auther: Created by yinglan
  * @time: 16/10/19
  */
 

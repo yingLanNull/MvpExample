@@ -8,7 +8,7 @@ import retrofit2.http.Url;
 
 /**
  * @function ${desc}
- * @auther: Created by sufei
+ * @auther: Created by yinglan
  * @time: 16/9/20
  */
 public interface ApiService {
