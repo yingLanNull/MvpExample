@@ -1,6 +1,7 @@
 package com.yinglan.mvpexample.ui.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,6 +14,7 @@ import com.bumptech.glide.Glide;
 import com.yinglan.mvpexample.R;
 import com.yinglan.mvpexample.model.MyApi;
 import com.yinglan.mvpexample.model.bean.Daily;
+import com.yinglan.mvpexample.ui.activity.NewsDetailActivity;
 
 
 import java.util.List;
@@ -57,11 +59,10 @@ public class DailyListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     }
 
     private void gotoWebView(Daily news, View v) {
-        Log.d("Daily", "id--->" + news.id);
         String news_url = MyApi.getNewsContent(news.id);
-//        Intent intent = new Intent(v.getContext(), WebActivity.class);
-//        intent.putExtra("URL", news_url);
-//        v.getContext().startActivity(intent);
+        Intent intent = new Intent(v.getContext(), NewsDetailActivity.class);
+        intent.putExtra("URL", news.getId());
+        v.getContext().startActivity(intent);
     }
 
     private void startView(Daily news, View v) {

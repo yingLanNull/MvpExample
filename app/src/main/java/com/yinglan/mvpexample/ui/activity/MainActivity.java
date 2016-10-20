@@ -13,6 +13,7 @@ import android.widget.FrameLayout;
 import com.yinglan.mvpexample.R;
 import com.yinglan.mvpexample.ui.fragment.DailyFragment;
 import com.yinglan.mvpexample.ui.fragment.DouBanFragment;
+import com.yinglan.mvpexample.ui.fragment.MovieFragment;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.fragment, new DailyFragment(), "首页").commit();
+        fragmentManager.beginTransaction().add(R.id.fragment, new DailyFragment(), "首页").commit();
         setupDrawerContent();
     }
 
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                                     fragment = new DailyFragment();
                                     break;
                                 case R.id.drawer_movie:
-                                    fragment = new DouBanFragment();
+                                    fragment = new MovieFragment();
                                     break;
                                 case R.id.drawer_img:
                                     fragment = new DouBanFragment();

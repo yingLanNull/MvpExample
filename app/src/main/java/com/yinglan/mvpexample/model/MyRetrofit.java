@@ -26,6 +26,7 @@ import com.zhy.http.okhttp.OkHttpUtils;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 
 /**
@@ -48,6 +49,18 @@ public class MyRetrofit {
                 .baseUrl("http://news.at.zhihu.com/api/4/news/before/")
                 .client(OkHttpUtils.getInstance().getOkHttpClient())
                 .addConverterFactory(GsonConverterFactory.create(gson))
+                .build();
+        apiService = retrofit.create(ApiService.class);
+        return apiService;
+    }
+
+    public static ApiService getMeiTuService() {
+        OkHttpClient client = OkHttpUtils.getInstance().getOkHttpClient();
+
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://news.at.zhihu.com/api/4/news/before/")
+                .client(OkHttpUtils.getInstance().getOkHttpClient())
+                .addConverterFactory(ScalarsConverterFactory.create())
                 .build();
         apiService = retrofit.create(ApiService.class);
         return apiService;
