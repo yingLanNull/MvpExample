@@ -19,9 +19,10 @@ import butterknife.Bind;
 
 /**
  * @function ${desc}
- * @auther: Created by sufei
- * @time: 16/10/20
+ * @auther: Created by yinglan
+ * @time: 16/10/18
  */
+
 
 public class MovieFragment extends BaseFragment<MoviePresenter> implements MovieView {
 

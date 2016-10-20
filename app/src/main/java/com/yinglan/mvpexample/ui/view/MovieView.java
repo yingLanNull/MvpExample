@@ -7,9 +7,10 @@ import java.util.List;
 
 /**
  * @function ${desc}
- * @auther: Created by sufei
- * @time: 16/10/20
+ * @auther: Created by yinglan
+ * @time: 16/10/18
  */
+
 
 public interface MovieView extends IView {
     void loadData(List<MovieBean.MovieInfo> data);

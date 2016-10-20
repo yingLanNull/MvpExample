@@ -17,9 +17,10 @@ import retrofit2.Call;
 
 /**
  * @function ${desc}
- * @auther: Created by sufei
- * @time: 16/10/19
+ * @auther: Created by yinglan
+ * @time: 16/10/18
  */
+
 
 public class DouBanPresenter extends BasePresenter<DouBanView> {
 

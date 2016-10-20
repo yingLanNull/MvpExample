@@ -14,12 +14,12 @@ import com.yinglan.mvpexample.R;
 
 import java.util.List;
 
-public abstract class ImageRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public abstract class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private List<String> images;
     private Context context;
 
-    public ImageRecyclerViewAdapter(Context context, List<String> images) {
+    public RecyclerViewAdapter(Context context, List<String> images) {
         this.images = images;
         this.context = context;
     }

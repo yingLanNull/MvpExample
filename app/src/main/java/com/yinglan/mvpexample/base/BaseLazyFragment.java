@@ -6,7 +6,7 @@ import android.support.v4.app.Fragment;
 import java.lang.reflect.Field;
 
 /**
- * Created by wukewei on 16/7/26.
+ * Created by yinglan on 16/5/30.
  */
 public abstract class BaseLazyFragment<T extends IPresenter> extends BaseFragment<T>{
 

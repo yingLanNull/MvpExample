@@ -28,10 +28,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 
-/**
- * 描述：新闻详情采用是webview解析已下载好的html文件，相对于电影详情webView请求网络加载页面要流畅很多
- * 这个界面存在内存泄漏的问题，目前还没有解决
- */
 public class NewsDetailActivity extends AppCompatActivity {
 
     @Bind(R.id.news_header)

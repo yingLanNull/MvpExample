@@ -10,7 +10,7 @@ import com.yinglan.mvpexample.R;
 import com.yinglan.mvpexample.base.BaseFragment;
 import com.yinglan.mvpexample.presenter.DouBanPresenter;
 import com.yinglan.mvpexample.ui.activity.ImageViewerActivity;
-import com.yinglan.mvpexample.ui.adapter.ImageRecyclerViewAdapter;
+import com.yinglan.mvpexample.ui.adapter.RecyclerViewAdapter;
 import com.yinglan.mvpexample.ui.view.DouBanView;
 
 import java.util.ArrayList;
@@ -56,7 +56,7 @@ public class DouBanFragment extends BaseFragment<DouBanPresenter> implements Dou
 
     @Override
     public void loadData(final ArrayList<String> urls) {
-        recyclerview.setAdapter(new ImageRecyclerViewAdapter(mContext, urls) {
+        recyclerview.setAdapter(new RecyclerViewAdapter(mContext, urls) {
             @Override
             protected void onItemClick(View v, int position) {
                 Intent intent = new Intent(getActivity(), ImageViewerActivity.class);

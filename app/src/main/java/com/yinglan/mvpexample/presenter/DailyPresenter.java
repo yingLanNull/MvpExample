@@ -10,9 +10,10 @@ import com.yinglan.mvpexample.ui.view.DailyView;
 import retrofit2.Call;
 
 /**
- * Created by MVPHelper on 2016/10/18
+ * @function ${desc}
+ * @auther: Created by yinglan
+ * @time: 16/10/18
  */
-
 public class DailyPresenter extends BasePresenter<DailyView> {
 
 

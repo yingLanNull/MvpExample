@@ -30,8 +30,9 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 
 /**
- * 2015-08-07T03:57:47.229Z
- * Created by drakeet on 8/9/15.
+ * @function ${desc}
+ * @auther: Created by yinglan
+ * @time: 16/8/25
  */
 public class MyRetrofit {
 
@@ -47,7 +48,7 @@ public class MyRetrofit {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://news.at.zhihu.com/api/4/news/before/")
-                .client(OkHttpUtils.getInstance().getOkHttpClient())
+                .client(client)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         apiService = retrofit.create(ApiService.class);
@@ -59,7 +60,7 @@ public class MyRetrofit {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://news.at.zhihu.com/api/4/news/before/")
-                .client(OkHttpUtils.getInstance().getOkHttpClient())
+                .client(client)
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .build();
         apiService = retrofit.create(ApiService.class);
