@@ -11,7 +11,7 @@
 
 项目初步完成
 
-## 类似使用
+## 应用截图
 ![1](https://github.com/yingLanNull/MvpExample/blob/master/show/Screenshot0.png)
 ![2](https://github.com/yingLanNull/MvpExample/blob/master/show/Screenshot1.png)
 ![3](https://github.com/yingLanNull/MvpExample/blob/master/show/Screenshot4.png)
