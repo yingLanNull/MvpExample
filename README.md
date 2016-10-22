@@ -1,5 +1,5 @@
 # MvpExample
-## 摘要
+## Abstract 摘要
 一款MVP模式小应用,使用Material design风格,仅学习交流使用,完全开源。
 
 ## Demo 下载APK体验
