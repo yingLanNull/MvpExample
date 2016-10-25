@@ -11,7 +11,7 @@
 
 项目初步完成
 
-## 应用GIF
+## GIF 应用
 
 ![1](https://github.com/yingLanNull/MvpExample/blob/master/show/show.gif)
 
