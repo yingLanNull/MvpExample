@@ -5,7 +5,7 @@
 ## Demo 下载APK体验
 [Download Demo](https://github.com/yingLanNull/MvpExample/blob/master/show/app-debug.apk)
 
-## Version - 版本
+## Version 版本
 
 ###1.0
 
