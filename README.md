@@ -25,7 +25,7 @@
 ![7](https://github.com/yingLanNull/MvpExample/blob/master/show/Screenshot7.png)
 
 
-#### Disclaimer - 声明
+#### Disclaimer 声明
 本软件不收取任何费用,仅做学习交流,其中数据、接口均来自网络搜索,获取与共享之行为或有侵犯权益的嫌疑。若被告知需停止共享与使用,本人会及时删除此页面与整个项目。
 
 ## LICENSE 开源协议
