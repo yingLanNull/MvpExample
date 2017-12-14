@@ -28,7 +28,8 @@
 #### Disclaimer 声明
 本软件不收取任何费用,仅做学习交流,其中数据、接口均来自网络搜索,获取与共享之行为或有侵犯权益的嫌疑。若被告知需停止共享与使用,本人会及时删除此页面与整个项目。
 
-## LICENSE 开源协议
+## License
+The work done has been licensed under Apache License 2.0. The license file can be found
+[here](LICENSE). You can find out more about the license at:
 
-    Apache License Version 2.0
-
+http://www.apache.org/licenses/LICENSE-2.0
